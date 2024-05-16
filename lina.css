@@ -1,0 +1,29 @@
+#lina {
+    display: none;
+    position: fixed;
+    margin-top: 30%;
+    margin-left: 80%;
+    opacity: 0;
+    transition: 2s ease;
+    img {
+        width: 200px;
+        height: 300px;
+    }
+    label {
+        position: fixed;
+    }
+}
+
+#otvet {
+    background-color: grey;
+    width: 125px;
+    height: 60px;
+    align-content: center;
+    text-align: center;
+    font-size: 25pt;
+    margin-top: -4%;
+    margin-left: -1%;
+    border-radius: 40px 40px 0px 40px;
+    transition: 2s ease;
+    opacity: 0;
+}

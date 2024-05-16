@@ -1,0 +1,34 @@
+body {
+    display: flex;
+}
+
+#btn {
+    position: fixed;
+    width: 100px;
+    height: 50px;
+    font-size: 20pt;
+    margin-top: 20%;
+    margin-left: 47%;
+}
+
+#e {
+    position: fixed;
+}
+
+#lala {
+    display: none;
+}
+
+#rotate {
+    position: fixed;
+    font-size: 50pt;
+    margin-left: 25%;
+    margin-top: 50%;
+}
+
+#balya {
+    position: fixed;
+    font-size: 50pt;
+    margin-top: 20%;
+    margin-left: 42%;
+}

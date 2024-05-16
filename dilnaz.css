@@ -1,0 +1,83 @@
+#dilnaz {
+    display: none;
+    position: fixed;
+    height: 100%;
+    width: 100%;
+    transition: 2s ease;
+}
+
+#d-head img {
+    position: fixed;
+    width: 100px;
+    height: 100px;
+}
+
+#d-head {
+    position: fixed;
+    width: 100px;
+    height: 100px;
+    margin-left: 50%;
+    margin-top: 16%;
+    transition: 2s ease;
+}
+
+#d-tors {
+    position: fixed;
+    margin-top: 19.3%;
+    margin-left: 49.5%;
+    transition: 2s ease;
+    img {
+        width: 130px;
+        height: 250px;
+    }
+}
+
+#d-left-hand {
+    position: fixed;
+    margin-top: 20.7%;
+    margin-left: 47.2%;
+    transition: 2s ease;
+    img {
+        width: 50px;
+        height: 250px;
+
+    }
+}
+
+#d-right-hand {
+    position: fixed;
+    margin-top: 20.8%;
+    margin-left: 55.7%;
+    rotate: -1deg;
+    transition: 2s ease;
+    img {
+        width: 50px;
+        height: 250px;
+
+    }
+}
+
+#d-left-leg {
+    position: fixed;
+    margin-top: 30%;
+    margin-left: 48.9%;
+    rotate: 7deg;
+    transition: 2s ease;
+    img {
+        width: 80px;
+        height: 300px;
+    }
+}
+
+#d-right-leg {
+    position: fixed;
+    margin-top: 30%;
+    margin-left: 53%;
+    rotate: -10deg;
+    transition: 2s ease;
+    img {
+        width: 80px;
+        height: 300px;
+    
+    }
+}
