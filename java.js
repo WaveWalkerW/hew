@@ -31,6 +31,9 @@ function myFunction(x) {
             const dilLeftHand = document.getElementById('d-left-hand');
             const dilHead = document.getElementById('d-head');
             const dilTors = document.getElementById('d-tors');
+            const adina = document.querySelector('#adina');
+
+
                         // LINA
 
                         const lin = document.getElementById('lina');
@@ -51,9 +54,6 @@ function myFunction(x) {
             lin.style.display = 'flex';
             ana.style.display = 'flex';
 
-
-            
-
             lin.style.marginTop = '130%'
             lin.style.rotate = '90deg'
             lin.style.marginLeft = '30%'
@@ -65,6 +65,7 @@ function myFunction(x) {
             ana.style.marginLeft = '23%'
             ma.style.marginLeft = '40%'
             ma.style.marginTop = '-30%'
+
 
             document.getElementById('e-head').style.marginTop = '5%'
             document.getElementById('e-head').style.marginLeft = '11%'
@@ -81,8 +82,8 @@ function myFunction(x) {
             document.getElementById('d-right-leg').style.marginLeft = '57%'
 
             dil.style.display = 'flex';
-            text.style.marginTop = '-4%'
-            text.style.marginLeft = '23%'
+            text.style.marginTop = '-4%';
+            text.style.marginLeft = '23%';
             
             setTimeout(() => {
                 dil.style.marginLeft = '-80%'
@@ -114,6 +115,9 @@ function myFunction(x) {
                     ana.style.opacity = '100';
                     ma.style.opacity = '100';
                     fuu.style.opacity = '100';
+                    
+
+
                     const openRot = document.getElementById('open-rot');
                     const rot = document.getElementById('dil-rot');
 
@@ -154,7 +158,12 @@ function myFunction(x) {
         addEventListener('click', () => {
             console.log('none')
             
+            
             const suka = document.getElementById('balya');
+            
+            // ADINA
+
+            const adina = document.querySelector('#adina');
 
             // EGOR
             
@@ -184,6 +193,8 @@ function myFunction(x) {
             const ma = document.getElementById('mda')
             const ana = document.getElementById('anel'); 
             
+
+            adina.style.display = 'flex';
             lin.style.display = 'flex';
             ana.style.display = 'flex';
             openRot.style.display = 'none';
@@ -219,6 +230,9 @@ function myFunction(x) {
 
                     fuu.style.opacity = '100';
                     ma.style.opacity = '100';
+
+                    adina.style.opacity = '100';
+
                     setTimeout(() => {
                         setInterval(() => {
                             console.log('open')

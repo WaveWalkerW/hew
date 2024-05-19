@@ -1,0 +1,26 @@
+#adina {
+    position: fixed;
+    display: none;
+    margin: -10% 0% 0% 80%;
+    height: 700px;
+    opacity: 0;
+    transition: 2s ease;
+}
+
+#paket { 
+    position: fixed;
+    margin: 18% 0% 0% 3%;
+    height: 100px;
+}
+
+#text-adina {
+    position: fixed;
+    font-size: 20pt;
+    margin: 13% 0% 0% -20%;
+    background-color: grey;
+    height: 40pt;
+    width: 470px;
+    align-content: center;
+    text-align: center;
+    border-radius: 20px 0px 0px 20px;
+}
